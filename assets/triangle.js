@@ -1,3 +1,6 @@
-for (let i = 1; i  < 7; i++){
-    console.log('#')
-}
+ 
+ for(let line = '#'; line.length < 8; line += '#'){
+    console.log(line);
+ }
+ 
+  
